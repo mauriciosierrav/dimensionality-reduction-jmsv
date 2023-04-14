@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "dimensionality-reduction-jmsv"
+name = "dimensionality_reductions_jmsv"
 version = "0.1.0"
 description = "Package with the PCA, SVD and t-SNE methods for dimensionality reduction"
 license = "MIT"
@@ -7,7 +7,7 @@ authors = ["Mauricio Sierra"]
 maintainers = ["Send_Mail <mauricio@gmail.com>"]
 readme = "README.md"
 
-homepage = "https://pypi.org/project/dimensionality-reduction-jmsv/#history"
+homepage = "https://pypi.org/project/dimensionality_reductions_jmsv/#history"
 repository = "https://github.com/mauriciosierrav/dimensionality-reduction-jmsv.git"
 
 keywords = ["SVD", "PCA", "t-SNE"]
@@ -15,7 +15,7 @@ keywords = ["SVD", "PCA", "t-SNE"]
 classifiers = [
     'Programming Language :: Python', ]
 
-packages = [{include = "dimensionality_reduction"}]
+packages = [{include = "dimensionality_reductions_jmsv"}]
 
 
 
