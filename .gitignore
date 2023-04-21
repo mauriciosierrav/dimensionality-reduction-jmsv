@@ -10,8 +10,5 @@ __pycache__/
 env/
 venv/
 
-# Distribution / packaging
-main.py
-
 # Others
 .DS_Store

@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "dimensionality_reductions_jmsv"
-version = "0.1.0"
-description = "Package with the PCA, SVD and t-SNE methods for dimensionality reduction"
+version = "0.2.0"
+description = "Package with the PCA, SVD and t-SNE methods for dimensionality reduction. It also contains the clustering algorithms K-Means and K-Medoids."
 license = "MIT"
 authors = ["Mauricio Sierra"]
 maintainers = ["Send_Mail <mauricio@gmail.com>"]
@@ -10,10 +10,11 @@ readme = "README.md"
 homepage = "https://pypi.org/project/dimensionality_reductions_jmsv/#history"
 repository = "https://github.com/mauriciosierrav/dimensionality-reduction-jmsv.git"
 
-keywords = ["SVD", "PCA", "t-SNE"]
+keywords = ["SVD", "PCA", "t-SNE", "KMeans", "KMedoids"]
 
 classifiers = [
-    'Programming Language :: Python', ]
+    'Programming Language :: Python :: 3.10',
+    'Development Status :: 4 - Beta']
 
 packages = [{include = "dimensionality_reductions_jmsv"}]
 
